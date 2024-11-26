@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+
+
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="submit_buttons">#6200EE</color>
+    <color name="Subheadings">#010847</color>
+    <color name="progressbar_2">#03DAC5</color>
+    <color name="secondary_dark">#018786</color>
+    <color name="progressbar_3">#D11A62</color>
+    <color name="progressbar_1">#FFC107</color>
+    <color name="borders">#576BE7</color>
+    <color name="Subheadings_Main">#B3B3B3</color>
+    <color name="Subheadings2">#737171</color>
+</resources>

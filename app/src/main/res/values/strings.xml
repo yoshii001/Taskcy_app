@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Taskcy</string>
+
+    <string name="page1_tittle">Building Better Workplaces </string>
+    <string name="page1_tittle2">Create a unique emotional story that describes better than words</string>
+    <string name="getstart">Get Started</string>
+    <string name="TaskManagement">Task Management</string>
+    <string name="page2_tittle2">Let\'s create a space for your workflows.</string>
+    <string name="Skip">Skip</string>
+    <string name="page3_tittle2">Work more Structured and Organized 👌</string>
+    <string name="page4_tittle2">Manage your Tasks quickly for Results👌</string>
+    <string name="page1_tittle4">Welcome✌️</string>
+
+    <string name="SignIn">Sign In</string>
+    <string name="WelcomeBack">Welcome Back</string>
+    <string name="signIn_title1">Please Inter your email address and password for Login</string>
+    <string name="signIn_1">Enter your Email</string>
+    <string name="signIn_2">Enter your password</string>
+    <string name="signIn_3">Forgot Password?</string>
+    <string name="signwith">Signin with</string>
+    <string name="apple_sign_in"> apple_sign_in</string>
+    <string name="google_sign_in">google_sign_in</string>
+    <string name="signnot">Not Registrar Yet?</string>
+
+    <string name="signup">Sign up</string>
+    <string name="signup_t1">Create Account</string>
+    <string name="signup_t2">Please Inter your Informatioin and create your account</string>
+    <string name="signup_name">Enter your name</string>
+    <string name="signup_email">Enter your mail</string>
+    <string name="signup_password">Enter your password</string>
+    <string name="signup_t3">Signup With</string>
+    <string name="signup_t4">Have an Account?</string>
+
+    <string name="chat_search">Search</string>
+    <string name="chat_title">Chat</string>
+    <string name="chat_person1">Jenny Alex</string>
+    <string name="chat_person2">Jhon Kuma</string>
+    <string name="chat_person3">Alex Avishek</string>
+    <string name="chat_person4">Jina Amh</string>
+
+    <string name="chat_active1">45 mins ago</string>
+    <string name="chat_active2">Active now</string>
+    <string name="chat_active3">Active 1h ago</string>
+    <string name="chat_active4">Active 1h ago</string>
+
+    <string name="contentdes">contentdes</string>
+
+    <string name="projects">Projects</string>
+    <string name="Favourites">Favourites</string>
+    <string name="Recents">Recents</string>
+    <string name="All">All</string>
+    <string name="UnityDashboard">Unity Dashboard</string>
+    <string name="count1">10/20</string>
+    <string name="count2">5/20</string>
+    <string name="count3">8/20</string>
+    <string name="FigmaUi">Figma UI</string>
+    <string name="Design">Design</string>
+    <string name="webdesign">Web design</string>
+
+    <string name="profile">Profile</string>
+    <string name="personname">Jenny Ainstain</string>
+    <string name="personmail">jennyainstain@gmail.com</string>
+    <string name="personedit">Edit</string>
+    <string name="count5">5</string>
+    <string name="count25">25</string>
+    <string name="OnGoing">On Going</string>
+    <string name="TotalComplete">Total Complete</string>
+    <string name="MyProjects">My Projects</string>
+    <string name="JoinaTeam">Join a Team</string>
+    <string name="Settings">Settings</string>
+    <string name="MyTask">My Task</string>
+    <string name="logout">Log out</string>
+    <string name="adsetting">Advanced Settings</string>
+
+    <string name="AddTask">Add Task</string>
+    <string name="TaskName">Task Name</string>
+    <string name="addtask2">Mobile Application design</string>
+    <string name="TeamMember">Team Member</string>
+    <string name="Date">Date</string>
+    <string name="time">Time</string>
+    <string name="addtaskdate">November 01, 2021</string>
+    <string name="StartTime">Start Time</string>
+    <string name="EndTime">End Time</string>
+    <string name="starttime2">9:30 am</string>
+    <string name="endtime2">3:30 pm</string>
+    <string name="Save">Save</string>
+    <string name="tasktitle">Mobile Application design</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Friday26">Friday, 26</string>
+    <string name="hometext2">Let’s make a habits together  🙌</string>
+    <string name="hometext3">Application Design</string>
+    <string name="homet4">UI Design Kit</string>
+    <string name="Progress">Progress</string>
+    <string name="prange">50/80</string>
+    <string name="InProgress">In Progress</string>
+
+    <string name="homecont1">Productivity Mobile App</string>
+    <string name="homecont2">Create Detail Booking</string>
+    <string name="homecont3">2 min ago</string>
+    <string name="homecont4">Banking Mobile App</string>
+    <string name="homecont5">Revision Home Page</string>
+    <string name="homecont6">5 min ago</string>
+    <string name="homecont7">Online Course</string>
+    <string name="homecont8">Working On Landing Page</string>
+    <string name="homecont9">7 min ago</string>
+    <string name="percentage1">60%</string>
+    <string name="percentage2">70%</string>
+    <string name="percentage3">90%</string>
+    <string name="percentage4">50%</string>
+    <string name="percentage5">30%</string>
+
+
+</resources>

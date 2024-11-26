@@ -1,0 +1,306 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    tools:context=".AddTaskMainActivity"
+    android:background="@color/white">
+
+    <!-- ScrollView to contain the main content -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/navigationLinearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Header Section -->
+            <LinearLayout
+                android:id="@+id/headerLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:background="#ffffff">
+
+                <!-- Back Button -->
+                <ImageButton
+                    android:id="@+id/addtaskback"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#ffff"
+                    app:srcCompat="@drawable/baseline_arrow_back_ios_24"
+                    android:contentDescription="@string/app_name" />
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/textViewTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/AddTask"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/title_color" />
+
+                <!-- Add Button -->
+                <ImageButton
+                    android:id="@+id/imageButtonAdd"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/baseline_add_24"
+                    android:background="#ffff"
+                    android:contentDescription="@string/app_name" />
+            </LinearLayout>
+
+            <!-- Task Name Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TaskName"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textColor="@color/title_color"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="16dp"/>
+
+            <!-- Task Name Input -->
+            <EditText
+                android:id="@+id/task_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/tasktitle"
+                android:padding="12dp"
+                android:textSize="16sp"
+                android:textColor="@color/title_color"
+                android:background="@drawable/rounded_corner"/>
+
+            <!-- Team Member Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TeamMember"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textColor="@color/title_color"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="16dp"/>
+
+            <!-- Team Members -->
+            <LinearLayout
+                android:id="@+id/team_members_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_corner">
+
+                <!-- Team Member 1 -->
+                <ImageView
+                    android:id="@+id/team_member_1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/girl"/>
+
+                <!-- Team Member 2 -->
+                <ImageView
+                    android:id="@+id/team_member_2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/bussinessman"/>
+
+                <!-- Add Member Button -->
+                <ImageView
+                    android:id="@+id/add_member3_button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/boyp"/>
+
+                <ImageView
+                    android:id="@+id/add_member4_button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/girl2"/>
+
+
+                <ImageButton
+                    android:id="@+id/add_member4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/baseline_add_24"
+                    android:background="@color/white"
+                    android:contentDescription="@string/contentdes"/>
+
+
+            </LinearLayout>
+
+
+            <!-- Date Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Date"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textColor="@color/title_color"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="16dp"/>
+
+            <!-- Date Picker -->
+            <EditText
+                android:id="@+id/task_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="November 01, 2021"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:textColor="@color/title_color"
+                android:background="@drawable/rounded_corner"/>
+
+            <!-- Time Picker Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/time"
+                android:textColor="@color/title_color"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <!-- Time Picker -->
+            <LinearLayout
+                android:id="@+id/time_picker_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp">
+
+                <EditText
+                    android:id="@+id/start_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/starttime2"
+                    android:padding="12dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/title_color"
+                    android:background="@drawable/rounded_corner"/>
+
+                <EditText
+                    android:id="@+id/end_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/endtime2"
+                    android:padding="12dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/title_color"
+                    android:background="@drawable/rounded_corner"/>
+            </LinearLayout>
+
+            <!-- Save Button -->
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/Save"
+                android:textSize="16dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Navigation Bar -->
+    <LinearLayout
+        android:id="@+id/navigationLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#f8f8f8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:elevation="8dp">
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/baseline_home_24"
+            android:contentDescription="@string/contentdes" />
+
+        <ImageButton
+            android:id="@+id/project"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/baseline_folder_24"
+            android:contentDescription="@string/contentdes" />
+
+        <ImageButton
+            android:id="@+id/add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/baseline_add_24"
+            android:contentDescription="@string/contentdes" />
+
+        <ImageButton
+            android:id="@+id/message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/baseline_message_24"
+            android:contentDescription="@string/contentdes" />
+
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/baseline_person_24"
+            android:contentDescription="@string/contentdes" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
